@@ -30,7 +30,7 @@ goto loop
 6. Once the miner is running you can check the web GUI to monitor progress. The GUI is accessible:
 [http://127.0.0.1:4067/](http://127.0.0.1:4067/)
 7. You can also monitor your pool progress by replacing your wallet address here:
-[https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/]9https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/)
+[https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/](https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/)
 
 ## Scheduling
 Optionally, use Windows task scheduler to automatically run. (I'm running only at night)
