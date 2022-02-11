@@ -27,4 +27,25 @@ goto loop
 ```
 *Note: I used Trust Wallet as my RVN wallet*
 5. Save the `mine-rvn.bat` file on your desktop. Double click to start mining.
-6. Optional, use Windows task scheduler to automatically run.
+6. Once the miner is running you can check the web GUI to monitor progress. The GUI is accessible:
+[http://127.0.0.1:4067/](http://127.0.0.1:4067/)
+7. You can also monitor your pool progress by replacing your wallet address here:
+[https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/]9https://www.ravenminer.com/wallet/RUWXXXXRvTDDkrURPUmH9UnLFwPCXXXXXX/)
+
+## Scheduling
+Optionally, use Windows task scheduler to automatically run. (I'm running only at night)
+1. Create a task
+![image](https://user-images.githubusercontent.com/1342367/153629469-2ee56eda-6b6e-4561-9f85-1eb8046223a0.png)
+2. Setup up for Windows 10
+![image](https://user-images.githubusercontent.com/1342367/153630536-7bbfa2e6-c35d-4488-8cce-44eaf741b546.png)
+3. Create a schedule to run every night at 11:30pm
+![image](https://user-images.githubusercontent.com/1342367/153630807-29889a2c-2785-47d7-af83-a6c5ffb5d50e.png)
+4. Make task run batch script to start the miner
+![image](https://user-images.githubusercontent.com/1342367/153631186-8053f245-589d-41f4-9afe-b050caeb4472.png)
+5. Have the task kill the process after 8 hours
+![image](https://user-images.githubusercontent.com/1342367/153631426-aff256a7-6dc1-47a4-a131-b1a4e95eb45b.png)
+6. Test running the task
+![image](https://user-images.githubusercontent.com/1342367/153631698-186d9ed1-28eb-419d-ab47-fc9cf3f69a3e.png)
+7. Then test making sure the task can be killed. Make sure the command window that opened automaticall closes.
+![image](https://user-images.githubusercontent.com/1342367/153631803-3991596a-9024-412f-a10c-a21ab47b2d7d.png)
+8. PROFIT $$$
